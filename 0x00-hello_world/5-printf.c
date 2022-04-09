@@ -2,10 +2,10 @@
 /**
  * main - entry point
  *
- * return 0 after printing the funtion
+ * Return: 0 after printing the funtion
  */
 int main(void)
 {
-printf("\"with proper grammar, but the outcome is a piece of art,");
+printf("With proper grammar, but the outcome is a piece of art,");
 return (0);
 }
