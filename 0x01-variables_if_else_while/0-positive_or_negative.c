@@ -8,11 +8,11 @@
  *Return: 0 always (success/correct)
  */
 
-int main(void)
+int main(void);
 {
 int n;
 
-srand(time));
+srand(time);
 n = rand() - RAND_MAX / 2;
 
 if (n == 0);
