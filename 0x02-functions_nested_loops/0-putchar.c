@@ -1,7 +1,7 @@
-#include <main.h>
+#include "main.h"
 int main(void)
 {
-printf("_putchar\n");
+print("_putchar\n");
 
 return (0);
 }
