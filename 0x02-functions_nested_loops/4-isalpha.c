@@ -1,37 +1,22 @@
 #include "main.h"
-
-
-
 /**
  *
- *  * _islower - Short descritpion, single line
+ *  * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  *
- *   * @c: contains value to be compared
+ *   *
  *
- *    * Return: Always 0.
+ *    *@c: The int to print
  *
- *     */
-
+ *     * Return: Always 0.
+ */
 int _isalpha(int c)
-
 {
-
-	  if (c > 'a' && c < 'z')
-
-		      {
-
-			            return (1);
-
-				        }
-
-
-
-	    else
-
-		        {
-
-				      return (0);
-
-				          }
-
+if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
