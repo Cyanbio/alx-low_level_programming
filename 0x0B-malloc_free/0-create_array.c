@@ -29,7 +29,6 @@ if (size == 0)
 {
 
 return (NULL);
-
 }
 
 
@@ -45,7 +44,6 @@ if (buffer == 0)
 {
 
 return (NULL);
-
 }
 
 
@@ -65,13 +63,6 @@ while (position < size) /*While for array*/
 position++;
 
 }
-
-
-
 return (buffer);
-
 }
-
-
-
 }
